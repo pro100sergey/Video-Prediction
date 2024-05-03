@@ -1,0 +1,15 @@
+        # current-state:
+        #     path: /current_status/{id}
+        #     method: GET
+        #     task_processor: main-task-processor
+        # settings:
+        #     path: /settings/{id}
+        #     method: GET
+        # launch:
+        #     path: /launch
+        #     method: POST
+        #     task_processor: main-task-processor
+        # sotp:
+        #     path: /stop
+        #     method: POST
+        #     task_processor: main-task-processor
